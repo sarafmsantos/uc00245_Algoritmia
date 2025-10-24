@@ -9,14 +9,14 @@ import { Component, OnInit } from '@angular/core';
 export class Home implements OnInit {
 
 variavelGlobal: string = "";
-variavelGlobal2: string;
+variavelGlobal2!: string;
 
   ngOnInit(): void {
     let teste = '';
     const nome = '';
 
     this.exemploVariaveisETipos();
-    this.exemploVariaveisETipos2();
+    this.exemploVariaveisEtipos2();
   }
 
 // ======================================================
@@ -51,3 +51,23 @@ exemploVariaveisEtipos2 = () => {
  
     console.log(nome1, idade1, ativo1, valor, this.variavelGlobal);
   }
+
+// ======================================================
+// 🔹 2. OPERADORES ARITMÉTICOS
+// ======================================================
+exemploOperadoresAritmeticos(): void {
+  console.log('\n🧩 2️⃣ OPERADORES ARITMÉTICOS');
+  console.log('--------------------------------');
+ 
+  // 📘 Exemplo de código:
+ 
+  let num1 = 10;
+  let num2 = 3;
+ 
+  console.log(num1 + num2); // Adição
+  console.log(num1 - num2); // Subtração
+  console.log(num1 * num2); // Multiplicação
+  console.log(num1 / num2); // Divisão
+  console.log(num1 % num2); // Resto da divisão
+}
+}
