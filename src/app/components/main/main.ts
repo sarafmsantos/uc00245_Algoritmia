@@ -8,22 +8,7 @@ import { RouterOutlet } from "@angular/router";
   templateUrl: './main.html',
   styleUrl: './main.css'
 })
-export class Main implements OnInit {
+export class Main {
 
-  /**Global */
-  aluno: string = "Sara Santos";
-
-  ngOnInit(): void {
-    this.definirProblemas();
-  }
-
-  definirProblemas():void {
-    this.aluno;
-    let aluno: string = "Tony";
-    console.log("This.aluno ", this.aluno);
-    console.log("This.aluno ", aluno);
-
-    
-  }
-
+ 
 }
