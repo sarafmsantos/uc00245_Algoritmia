@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './Aula01.html',
   styleUrl: './Aula01.css'
 })
-export class Home implements OnInit {
+export class Aula01 implements OnInit {
 
 variavelGlobal: string = "";
 variavelGlobal2!: string;
