@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
 import { Aula02 } from './pages/aula02/aula02';
-import { Aula01 } from './pages/Aula01/Aula01';
+import { Aula01 } from './pages/aula01/aula01';
  
 export const routes: Routes = [
   { path: '', redirectTo: 'Aula02', pathMatch: 'full' },

@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-Aula01',
+  selector: 'app-aula01',
   imports: [],
-  templateUrl: './Aula01.html',
-  styleUrl: './Aula01.css'
+  templateUrl: './aula01.html',
+  styleUrl: './aula01.css'
 })
-export class Aula01 implements OnInit {
+export class aula01 implements OnInit {
 
 variavelGlobal: string = "";
 variavelGlobal2!: string;

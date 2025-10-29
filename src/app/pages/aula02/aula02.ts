@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './aula02.html',
   styleUrl: './aula02.css'
 })
-export class Aula02 implements OnInit {
+export class aula02 implements OnInit {
   ngOnInit(): void {
     this.exemploEstruturasDecisao();
   }
