@@ -1,13 +1,13 @@
 import { Routes } from '@angular/router';
-import { Aula02 } from './pages/aula02/aula02';
-import { Aula01 } from './pages/aula01/aula01';
+import { aula02 } from './pages/aula02/aula02';
+import { aula01 } from './pages/aula01/Aula01';
  
 export const routes: Routes = [
-  { path: '', redirectTo: 'Aula02', pathMatch: 'full' },
-  { path: 'aula01', component: Aula01 },
-  { path: 'Aula02', component: Aula02 },
-  // { path: 'Wellcome', loadComponent: () => import('./pages/wellcome/wellcome').then(c => c.Wellcome)},
-  // { path: 'Wellcome', component: Wellcome},
+  { path: '', redirectTo: 'aula02', pathMatch: 'full' },
+  { path: 'aula01', component: aula01 },
+  { path: 'aula02', component: aula02 },
+  // { path: 'Welcome', loadComponent: () => import('./pages/welcome/welcome').then(c => c.Welcome)},
+  // { path: 'Welcome', component: Welcome},
  
-  { path: '**', component: Aula01 },
+  { path: '**', component: aula01 },
 ];
