@@ -22,6 +22,7 @@ arrayGlobal: string[] = [];
     this.exemploOperadoresAritmeticos();
     this.exemploOperadoresComparacao();
     this.exemploOperadoresLogicos();
+    this.demonstrarReferencias();
     this.exerciciosparafazer();
   }
 
@@ -116,7 +117,7 @@ exemploOperadoresLogicos(): void {
   console.log(!temIdade1); // NÃO (NOT)
 }
 
-  demonstrarReferencias() {
+demonstrarReferencias() {
   console.log('=== DEMONSTRAÇÃO DE REFERÊNCIAS DE MEMÓRIA ===');
  
     // 1. Tipos primitivos - Cópia por VALOR
