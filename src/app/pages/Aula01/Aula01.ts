@@ -19,6 +19,9 @@ arrayGlobal: string[] = [];
     
     this.exemploVariaveisETipos();
     this.exemploVariaveisEtipos2();
+    this.exemploOperadoresAritmeticos();
+    this.exemploOperadoresComparacao();
+    this.exemploOperadoresLogicos();
     this.exerciciosparafazer();
   }
 
